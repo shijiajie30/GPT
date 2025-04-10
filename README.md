@@ -6,12 +6,11 @@ simplified GPT
 
 ## 项目结构
 - **project-root**
-    - **app**
+    - **data**
+        - wikitext-2
+    - **src**
         - main.py
-        - utils.py
-    - tests
-        - test_main.py
-        - test_utils.py
-    - docs
-        - README.md
-        - api.md
+        - model.py
+        - dataset.py
+        - train_test.py
+    - README.md
