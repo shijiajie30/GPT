@@ -5,9 +5,13 @@ simplified GPT
 
 
 ## 项目结构
-.
-├── dataset.py        # 数据集加载和处理模块
-├── main.py           # 主程序入口
-├── model.py          # 模型定义模块
-├── train_test.py     # 训练和测试函数模块
-└── README.md         # 项目说明文档
+- **project-root**
+    - **app**
+        - main.py
+        - utils.py
+    - tests
+        - test_main.py
+        - test_utils.py
+    - docs
+        - README.md
+        - api.md
